@@ -5,7 +5,7 @@ namespace Chronicle
 Application::Application(int argc, char* argv[], const QSize windSize)
 {
 	m_QtApp = std::make_unique<QApplication>(argc, argv);
-	QApplication::setApplicationName("Chronicle");
+	QApplication::setApplicationName("Qt Project");
 
 	// Enable logging.
 	auto filePath = QCoreApplication::applicationDirPath() + "/app.log";
