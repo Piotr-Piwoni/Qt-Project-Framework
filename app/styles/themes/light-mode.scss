@@ -1,0 +1,18 @@
+﻿$primary: #e3cb2b;
+$secondary: #b8d090;
+$tertiary: #5FB7CD;
+$background: #fdfcf2;
+$background-darker: #efede7;
+$accent: #bf961d;
+$text: #1b1704;
+
+.QWidget {
+	background-color: $background-darker;
+	color: $text;
+	border: 2px solid $accent;
+}
+
+#context {
+	background-color: $background;
+	border: none;
+}

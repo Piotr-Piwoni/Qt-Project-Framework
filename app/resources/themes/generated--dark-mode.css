@@ -1,0 +1,10 @@
+.QWidget {
+  background-color: #171504;
+  color: #fbf7e4;
+  border: 2px solid #e2ba40;
+}
+
+#context {
+  background-color: #0d0c02;
+  border: none;
+}

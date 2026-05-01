@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/themes">
+    <file alias="dark-mode">generated--dark-mode.css</file>
+    <file alias="light-mode">generated--light-mode.css</file>
+  </qresource>
+</RCC>

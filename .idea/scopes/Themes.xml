@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Themes" pattern="file[Qt_Test]:app/resources/themes//*" />
+</component>

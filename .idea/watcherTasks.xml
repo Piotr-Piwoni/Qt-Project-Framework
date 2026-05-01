@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--no-source-map $FilePath$:$ProjectFileDir$/app/resources/themes/generated--$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS" />
+      <option name="output" value="$ProjectFileDir$/app/resources/themes/generated--$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="sass" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Styles" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="-ExecutionPolicy Bypass -File $ProjectFileDir$/app/resources/themes/UpdateThemesQRC__Windows.ps1 $ProjectFileDir$/app/resources/themes" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="css" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Update Themes Resource File (Windows)" />
+      <option name="output" value="$ProjectFileDir$/app/resources/themes" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="powershell" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Themes" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
